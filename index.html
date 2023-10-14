@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Calculador de Notas</h1>
+        <form>
+            <label for="nota1">Nota do 1º trimestre</label>
+            <input type="number" id="nota1" class="nota-input">
+
+            <label for="nota2">Nota do 2º trimestre</label>
+            <input type="number" id="nota2" class="nota-input">
+
+            <button type="button" onclick="calcularNotaNecessaria()">Calcular</button>
+        </form>
+        <p class="resultado">Informe suas notas acima.</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
